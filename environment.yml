@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - jupyter-vscode-proxy
+  - pip
+  - pip:
+    - jupyterlab-s3-browser>=0.12
