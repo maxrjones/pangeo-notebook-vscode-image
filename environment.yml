@@ -5,6 +5,3 @@ channels:
 dependencies:
   - code-server>=3.2
   - jupyter-vscode-proxy
-  - pip
-  - pip:
-    - jupyterlab-s3-browser>=0.12
