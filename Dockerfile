@@ -13,4 +13,4 @@ COPY --chown=${NB_USER}:${NB_USER} image-tests image-tests
 
 COPY --chown=${NB_USER}:${NB_USER} install-vscode-ext.sh ${HOME}/.kernels
 
-RUN sh ${HOME}/.kernels
+RUN sh ${HOME}/.kernels/install-vscode-ext.sh
