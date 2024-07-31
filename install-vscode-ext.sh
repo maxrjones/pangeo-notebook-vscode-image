@@ -6,5 +6,5 @@
 extensions=("ms-python.python" "ms-toolsai.jupyter" "quarto.quarto")
 
 for EXT in "${extensions[@]}"; do
-    do code-server --install-extension "${EXT}"
+    code-server --install-extension "${EXT}"
 done
