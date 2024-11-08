@@ -30,7 +30,6 @@ dependencies:
   - pooch
   - pre-commit
   - pyOpenSSL
-  - python=3.10
   - rioxarray
   - s3fs
   - scipy
