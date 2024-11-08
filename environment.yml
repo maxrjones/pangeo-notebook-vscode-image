@@ -3,6 +3,49 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - code-server>=3.2
+  - cfgrib
+  - dask>=2024.10.0
+  - dask-labextension
+  - datashader
+  - distributed
+  - fastparquet
+  - fsspec
+  - git
+  - h5netcdf
+  - h5py
+  - hvplot
+  - ipywidgets
+  - jupyter_bokeh
+  - jupyter_server
+  - jupyter-book
+  - jupyterlab
+  - mamba
+  - matplotlib
+  - netcdf4
+  - numcodecs
+  - numpy
+  - pandas
+  - pangeo-forge-recipes
+  - pip
+  - pooch
+  - pre-commit
+  - pyOpenSSL
+  - python=3.10
+  - rioxarray
+  - s3fs
+  - scipy
+  - tifffile
+  - ujson
+  - xarray
+  - virtualizarr
+  - zarr
+  - sphinx-pythia-theme
+  # For development on the Hub
+  - git
+  - code-server
   - jupyter-vscode-proxy
-  - jupyter-collaboration
+  - pip:
+      - git+https://github.com/fsspec/kerchunk
+      - git+https://github.com/carbonplan/xrefcoord.git
+      # For development on the Hub
+      - gh-scoped-creds
